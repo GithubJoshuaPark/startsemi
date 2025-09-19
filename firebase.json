@@ -1,0 +1,13 @@
+{
+  "hosting": [
+    {
+      "target": "startsemi", // firebase deploy --only hosting:startsemi
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
