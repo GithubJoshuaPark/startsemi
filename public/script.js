@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const videoItem = document.createElement('div');
                         videoItem.classList.add('video-item');
                         videoItem.innerHTML = `
-                            <iframe src="${embedUrl}" allowfullscreen></iframe>
+                            <iframe src="${embedUrl}" loading="lazy" title="${video.title}" allowfullscreen></iframe>
                             <h5>${video.title}</h5>
                             <p><strong>시간:</strong> ${video.time}</p>
                             <p><strong>조회수:</strong> ${video.views}</p>
