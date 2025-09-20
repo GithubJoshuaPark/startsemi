@@ -6,7 +6,8 @@ const urlsToCache = [
   '/script.js',
   '/semiconductor_banner.png',
   '/images/icon-192x192.png',
-  '/images/icon-512x512.png'
+  '/images/icon-512x512.png',
+  '/favicon.ico'
 ];
 
 // 1. 서비스 워커 설치 및 핵심 파일 캐싱
