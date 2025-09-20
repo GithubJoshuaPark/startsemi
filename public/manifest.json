@@ -1,0 +1,21 @@
+{
+  "name": "반도체 공정 학습",
+  "short_name": "반도체 학습",
+  "description": "반도체 제조 공정에 대한 학습 자료를 제공하는 웹사이트",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e67e22",
+  "icons": [
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
